@@ -13,8 +13,8 @@
         
         data(){
             return{
-            users: [{first_name:"David", last_name:"Cohen", bday:"2.4.2000", phone:"058-5458888", email:"davidc@gmail.com", username:"davidC", password:"*****", img:"../../static/man1.png"},
-                    {first_name:"Dana", last_name:"Shalom", bday:"1.5.1886", phone:"052-4554488", email:"dana@gmail.com", username:"dandan", password:"*****", img:"../../static/woman2.png"}],
+            users: [{first_name:"David", last_name:"Cohen", bday:"2.4.2000", phone:"058-5458888", email:"davidc@gmail.com", username:"davidC", password:"*****", img:"./static/man1.png"},
+                    {first_name:"Dana", last_name:"Shalom", bday:"1.5.1886", phone:"052-4554488", email:"dana@gmail.com", username:"dandan", password:"*****", img:"./static/woman2.png"}],
             } 
         },
         components: {
