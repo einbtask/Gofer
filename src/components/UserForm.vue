@@ -58,7 +58,7 @@ export default {
               username:"",
               password:"",
               repeatedPassword:"",
-              img: "../../static/file.png",
+              img: "static/file.png",
               selectedFile: null,
               status: "",
               action:""
@@ -77,7 +77,7 @@ export default {
             this.username = "",
             this.password = "",
             this.repeatedPassword = "",
-            this.img =  "../../static/file.png",
+            this.img =  "static/file.png",
             this.selectedFile = null,
             this.selected_date =  null
               
