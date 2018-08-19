@@ -3,7 +3,7 @@
       <img :src="user.img" class='user-image rounded-circle mr-3' width='30px' height='30px'/>
       <span>{{user.first_name}} {{user.last_name}}</span>
       <div class="details" :class="{ show: showDetails }">
-        <img class="remove position-absolute" src="../../static/remove.png" alt="remove user X" @click="$emit('remove-user', user)">
+        <img class="remove position-absolute" src="static/remove.png" alt="remove user X" @click="$emit('remove-user', user)">
         <UserDetails :user="user"/>
       </div>
     </div>

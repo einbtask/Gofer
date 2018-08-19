@@ -1,8 +1,8 @@
 <template>
    <div class="toast position-relative d-flex align-items-center justify-content-center">
-        <img class="icon" :src="'../../static/' + action + '.png'" alt="user added" >
+        <img class="icon" :src="'./static/' + action + '.png'" alt="user added" >
         <p>User {{action}}</p> 
-        <img class="remove" @click="$emit('remove-toast')" src="../../static/remove.png" alt="remove user X" >
+        <img class="remove" @click="$emit('remove-toast')" src="static/remove.png" alt="remove user X" >
    </div>
 </template>
 

@@ -2,7 +2,7 @@
    <div class="h-50 pl-3 pt-4">
        <h2>Recent photos</h2>
        <div class="grid-container mt-3 position-relative">
-           <img :src="'../../static/photo_' + img_src + '.png'" :class="'img ' + 'img' + img_src" v-for="(img_src,index) in photosToShow" class="w-30 mb-3" :key="index"/>
+           <img :src="'./static/photo_' + img_src + '.png'" :class="'img ' + 'img' + img_src" v-for="(img_src,index) in photosToShow" class="w-30 mb-3" :key="index"/>
            <div class="count">+{{photosCounter - photosToShow}}</div>
        </div>
    </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="bar d-flex align-items-center pt-3 flex-column">
         <div v-for="(img_src,index) in 8" :class="'bar-icon d-flex justify-content-center align-items-center mb-3 icon' + img_src" :key="index">
-           <img :src="'../../static/icon_' + img_src + '.svg'" class="pl-1 pt-1">
+           <img :src="'./static/icon_' + img_src + '.svg'" class="pl-1 pt-1">
         </div>
 
     </div>
